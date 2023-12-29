@@ -1,0 +1,699 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+
+  <model name="configurable_pallet_rack">
+    <static>true</static>
+
+
+        
+    <link name="upright_front_right">
+
+      <visual name="upright_front_right_visual">
+        <pose>0.0381 0.0381 3.7592 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.0762 0.0762 7.5184</size>
+          </box>
+        </geometry>
+        <material><script><name>Gazebo/Orange</name></script></material>
+     </visual>
+
+     <collision name="upright_front_right_collision">
+        <pose>0.0381 0.0381 3.7592 0 0 0</pose>
+        <geometry>
+          <box>
+             <size>0.0762 0.0762 7.5184</size>
+          </box>
+        </geometry>
+				<surface>
+        	<friction>
+          	<ode>
+            	<mu>100.0</mu>
+            	<mu2>100.0</mu2>
+          	</ode>
+        	</friction>
+      	</surface>
+    </collision>
+
+    </link>
+
+    <link name="upright_front_left">
+
+      <visual name="upright_front_left_visual">
+        <pose>0.0381 2.5527 3.7592 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.0762 0.0762 7.5184</size>
+          </box>
+        </geometry>
+        <material><script><name>Gazebo/Orange</name></script></material>
+     </visual>
+
+     <collision name="upright_front_left_collision">
+        <pose>0.0381 2.5527 3.7592 0 0 0</pose>
+        <geometry>
+          <box>
+             <size>0.0762 0.0762 7.5184</size>
+          </box>
+        </geometry>
+				<surface>
+        	<friction>
+          	<ode>
+            	<mu>100.0</mu>
+            	<mu2>100.0</mu2>
+          	</ode>
+        	</friction>
+      	</surface>
+    </collision>
+
+    </link>
+    
+ 
+
+
+<visual name="visual">
+	<pose>0.0381 1.2954 4.064 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://tote.dae</uri>
+            <!-- Replace "your_mesh.dae" with the actual name of your mesh file -->
+          </mesh>
+        </geometry>
+      </visual>
+
+<geometry>
+    <mesh><uri>model://tote.dae</uri></mesh>
+</geometry>
+
+
+
+
+    <link name="upright_rear_right">
+
+      <visual name="upright_rear_right_visual">
+        <pose>1.0287 0.0381 3.7592 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.0762 0.0762 7.5184</size>
+          </box>
+        </geometry>
+        <material><script><name>Gazebo/Orange</name></script></material>
+     </visual>
+
+     <collision name="upright_rear_right_collision">
+        <pose>1.0287 0.0381 3.7592 0 0 0</pose>
+        <geometry>
+          <box>
+             <size>0.0762 0.0762 7.5184</size>
+          </box>
+        </geometry>
+				<surface>
+        	<friction>
+          	<ode>
+            	<mu>100.0</mu>
+            	<mu2>100.0</mu2>
+          	</ode>
+        	</friction>
+      	</surface>
+    </collision>
+
+    </link>
+
+    <link name="upright_rear_left">
+
+      <visual name="upright_rear_left_visual">
+        <pose>1.0287 2.5527 3.7592 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.0762 0.0762 7.5184</size>
+          </box>
+        </geometry>
+        <material><script><name>Gazebo/Orange</name></script></material>
+     </visual>
+
+     <collision name="upright_rear_left_collision">
+        <pose>1.0287 2.5527 3.7592 0 0 0</pose>
+        <geometry>
+          <box>
+             <size>0.0762 0.0762 7.5184</size>
+          </box>
+        </geometry>
+				<surface>
+        	<friction>
+          	<ode>
+            	<mu>100.0</mu>
+            	<mu2>100.0</mu2>
+          	</ode>
+        	</friction>
+      	</surface>
+    </collision>
+
+    </link>
+    
+    
+    
+    
+     <link name="upright_front_right">
+     <visual name="upright_front_right_visual">
+        <pose>0.0381 0.0381 3.7592 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.0762 0.0762 7.5184</size>
+          </box>
+        </geometry>
+        <material><script><name>Gazebo/Orange</name></script></material>
+     </visual>
+
+     <collision name="upright_front_right_collision">
+        <pose>0.0381 0.0381 3.7592 0 0 0</pose>
+        <geometry>
+          <box>
+             <size>0.0762 0.0762 7.5184</size>
+          </box>
+        </geometry>
+				<surface>
+        	<friction>
+          	<ode>
+            	<mu>100.0</mu>
+            	<mu2>100.0</mu2>
+          	</ode>
+        	</friction>
+      	</surface>
+    </collision>
+     
+    </link>
+    
+  <link name="upright_front_right_parallel">
+  
+
+  
+     </link>
+  <link name="upright_front_left_parallel">
+  
+  
+  
+  
+  <visual name="upright_front_left_visual">
+        <pose>1.0762 2.5527 0 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.0762 0.0762 7.5184</size>
+          </box>
+        </geometry>
+        <material><script><name>Gazebo/Orange</name></script></material>
+     </visual>
+
+     <collision name="upright_front_left_collision">
+        <pose>1.0762 2.5527 0 0 0 0</pose>
+        <geometry>
+          <box>
+             <size>0.0762 0.0762 7.5184</size>
+          </box>
+        </geometry>
+				<surface>
+        	<friction>
+          	<ode>
+            	<mu>100.0</mu>
+            	<mu2>100.0</mu2>
+          	</ode>
+        	</friction>
+      	</surface>
+    </collision>
+  
+  
+  
+    </link>
+    
+  <link name="upright_rear_right_parallel">
+  
+  <visual name="upright_rear_right_visual">
+        <pose>1.0762 0 3.7592 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.0762 0.0762 7.5184</size>
+          </box>
+        </geometry>
+        <material><script><name>Gazebo/Orange</name></script></material>
+     </visual>
+
+     <collision name="upright_rear_right_collision">
+        <pose>1.0762 0 3.7592 0 0 0</pose>
+        <geometry>
+          <box>
+             <size>0.0762 0.0762 7.5184</size>
+          </box>
+        </geometry>
+				<surface>
+        	<friction>
+          	<ode>
+            	<mu>100.0</mu>
+            	<mu2>100.0</mu2>
+          	</ode>
+        	</friction>
+      	</surface>
+    </collision>
+
+    
+    </link>
+  <link name="upright_rear_left_parallel">
+  
+  <visual name="upright_rear_left_visual">
+        <pose>1.0762 2.5527 3.7592 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.0762 0.0762 7.5184</size>
+          </box>
+        </geometry>
+        <material><script><name>Gazebo/Orange</name></script></material>
+     </visual>
+
+     <collision name="upright_rear_left_collision">
+        <pose>1.0762 2.5527 3.7592 0 0 0</pose>
+        <geometry>
+          <box>
+             <size>0.0762 0.0762 7.5184</size>
+          </box>
+        </geometry>
+				<surface>
+        	<friction>
+          	<ode>
+            	<mu>100.0</mu>
+            	<mu2>100.0</mu2>
+          	</ode>
+        	</friction>
+      	</surface>
+    </collision>
+  
+    
+    </link>
+    
+    
+    
+    
+    
+
+    <link name="shelf_0_front_crossbar">
+
+      <visual name="shelf_0_front_crossbar_visual">
+        <pose>0.0381 1.2954 1.4732 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.0762 2.4384 0.1016</size>
+          </box>
+        </geometry>
+        <material><script><name>Gazebo/Gray</name></script></material>
+     </visual>
+
+    <visual name="shelf_0_rear_crossbar_visual">
+      <pose>1.0287 1.2954 1.4732 0 0 0</pose>
+      <geometry>
+        <box>
+          <size>0.0762 2.4384 0.1016</size>
+        </box>
+      </geometry>
+      <material><script><name>Gazebo/Gray</name></script></material>
+    </visual>
+
+    <visual name="shelf_0_right_crossbar_visual">
+      <pose>0.5334 0.0381 1.4732 0 0 0</pose>
+      <geometry>
+        <box>
+          <size>0.9144 0.0762 0.1016</size>
+        </box>
+      </geometry>
+      <material><script><name>Gazebo/Gray</name></script></material>
+    </visual>
+
+    <visual name="shelf_0_left_crossbar_visual">
+      <pose>0.5334 2.5527 1.4732 0 0 0</pose>
+      <geometry>
+        <box>
+          <size>0.9144 0.0762 0.1016</size>
+        </box>
+      </geometry>
+      <material><script><name>Gazebo/Gray</name></script></material>
+    </visual>
+
+     <collision name="shelf_0_collision">
+        <pose>0.5334 1.2954 1.4732 0 0 0</pose>
+        <geometry>
+          <box>
+            <!-- Solid collision -->
+             <size>1.0668 2.4384 0.1016</size>
+          </box>
+        </geometry>
+				<surface>
+        	<friction>
+          	<ode>
+            	<mu>100.0</mu>
+            	<mu2>100.0</mu2>
+          	</ode>
+        	</friction>
+      	</surface>
+    </collision>
+
+    </link>
+
+    
+
+    
+    
+    
+
+    <link name="shelf_1_front_crossbar">
+
+      <visual name="shelf_1_front_crossbar_visual">
+        <pose>0.0381 1.2954 2.9464 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.0762 2.4384 0.1016</size>
+          </box>
+        </geometry>
+        <material><script><name>Gazebo/Gray</name></script></material>
+     </visual>
+
+    <visual name="shelf_1_rear_crossbar_visual">
+      <pose>1.0287 1.2954 2.9464 0 0 0</pose>
+      <geometry>
+        <box>
+          <size>0.0762 2.4384 0.1016</size>
+        </box>
+      </geometry>
+      <material><script><name>Gazebo/Gray</name></script></material>
+    </visual>
+
+    <visual name="shelf_1_right_crossbar_visual">
+      <pose>0.5334 0.0381 2.9464 0 0 0</pose>
+      <geometry>
+        <box>
+          <size>0.9144 0.0762 0.1016</size>
+        </box>
+      </geometry>
+      <material><script><name>Gazebo/Gray</name></script></material>
+    </visual>
+
+    <visual name="shelf_1_left_crossbar_visual">
+      <pose>0.5334 2.5527 2.9464 0 0 0</pose>
+      <geometry>
+        <box>
+          <size>0.9144 0.0762 0.1016</size>
+        </box>
+      </geometry>
+      <material><script><name>Gazebo/Gray</name></script></material>
+    </visual>
+
+     <collision name="shelf_1_collision">
+        <pose>0.5334 1.2954 2.9464 0 0 0</pose>
+        <geometry>
+          <box>
+            <!-- Solid collision -->
+             <size>1.0668 2.4384 0.1016</size>
+          </box>
+        </geometry>
+				<surface>
+        	<friction>
+          	<ode>
+            	<mu>100.0</mu>
+            	<mu2>100.0</mu2>
+          	</ode>
+        	</friction>
+      	</surface>
+    </collision>
+
+    </link>
+
+    
+
+    
+    
+    
+
+    <link name="shelf_2_front_crossbar">
+
+      <visual name="shelf_2_front_crossbar_visual">
+        <pose>0.0381 1.2954 4.064 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.0762 2.4384 0.1016</size>
+          </box>
+        </geometry>
+        <material><script><name>Gazebo/Gray</name></script></material>
+     </visual>
+
+    <visual name="shelf_2_rear_crossbar_visual">
+      <pose>1.0287 1.2954 4.064 0 0 0</pose>
+      <geometry>
+        <box>
+          <size>0.0762 2.4384 0.1016</size>
+        </box>
+      </geometry>
+      <material><script><name>Gazebo/Gray</name></script></material>
+    </visual>
+
+    <visual name="shelf_2_right_crossbar_visual">
+      <pose>0.5334 0.0381 4.064 0 0 0</pose>
+      <geometry>
+        <box>
+          <size>0.9144 0.0762 0.1016</size>
+        </box>
+      </geometry>
+      <material><script><name>Gazebo/Gray</name></script></material>
+    </visual>
+
+    <visual name="shelf_2_left_crossbar_visual">
+      <pose>0.5334 2.5527 4.064 0 0 0</pose>
+      <geometry>
+        <box>
+          <size>0.9144 0.0762 0.1016</size>
+        </box>
+      </geometry>
+      <material><script><name>Gazebo/Gray</name></script></material>
+    </visual>
+
+     <collision name="shelf_2_collision">
+        <pose>0.5334 1.2954 4.064 0 0 0</pose>
+        <geometry>
+          <box>
+            <!-- Solid collision -->
+             <size>1.0668 2.4384 0.1016</size>
+          </box>
+        </geometry>
+				<surface>
+        	<friction>
+          	<ode>
+            	<mu>100.0</mu>
+            	<mu2>100.0</mu2>
+          	</ode>
+        	</friction>
+      	</surface>
+    </collision>
+
+    </link>
+
+    <link name="shelf_3_front_crossbar">
+
+      <visual name="shelf_3_front_crossbar_visual">
+        <pose>0.0381 1.2954 5.1816 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.0762 2.4384 0.1016</size>
+          </box>
+        </geometry>
+        <material><script><name>Gazebo/Gray</name></script></material>
+     </visual>
+
+    <visual name="shelf_3_rear_crossbar_visual">
+      <pose>1.0287 1.2954 5.1816 0 0 0</pose>
+      <geometry>
+        <box>
+          <size>0.0762 2.4384 0.1016</size>
+        </box>
+      </geometry>
+      <material><script><name>Gazebo/Gray</name></script></material>
+    </visual>
+
+    <visual name="shelf_3_right_crossbar_visual">
+      <pose>0.5334 0.0381 5.1816 0 0 0</pose>
+      <geometry>
+        <box>
+          <size>0.9144 0.0762 0.1016</size>
+        </box>
+      </geometry>
+      <material><script><name>Gazebo/Gray</name></script></material>
+    </visual>
+
+    <visual name="shelf_3_left_crossbar_visual">
+      <pose>0.5334 2.5527 5.1816 0 0 0</pose>
+      <geometry>
+        <box>
+          <size>0.9144 0.0762 0.1016</size>
+        </box>
+      </geometry>
+      <material><script><name>Gazebo/Gray</name></script></material>
+    </visual>
+
+     <collision name="shelf_3_collision">
+        <pose>0.5334 1.2954 5.1816 0 0 0</pose>
+        <geometry>
+          <box>
+            <!-- Solid collision -->
+             <size>1.0668 2.4384 0.1016</size>
+          </box>
+        </geometry>
+				<surface>
+        	<friction>
+          	<ode>
+            	<mu>100.0</mu>
+            	<mu2>100.0</mu2>
+          	</ode>
+        	</friction>
+      	</surface>
+    </collision>
+
+    </link>
+
+    
+
+    
+    
+    
+
+    <link name="shelf_4_front_crossbar">
+
+      <visual name="shelf_4_front_crossbar_visual">
+        <pose>0.0381 1.2954 6.2992 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.0762 2.4384 0.1016</size>
+          </box>
+        </geometry>
+        <material><script><name>Gazebo/Gray</name></script></material>
+     </visual>
+
+    <visual name="shelf_4_rear_crossbar_visual">
+      <pose>1.0287 1.2954 6.2992 0 0 0</pose>
+      <geometry>
+        <box>
+          <size>0.0762 2.4384 0.1016</size>
+        </box>
+      </geometry>
+      <material><script><name>Gazebo/Gray</name></script></material>
+    </visual>
+
+    <visual name="shelf_4_right_crossbar_visual">
+      <pose>0.5334 0.0381 6.2992 0 0 0</pose>
+      <geometry>
+        <box>
+          <size>0.9144 0.0762 0.1016</size>
+        </box>
+      </geometry>
+      <material><script><name>Gazebo/Gray</name></script></material>
+    </visual>
+
+    <visual name="shelf_4_left_crossbar_visual">
+      <pose>0.5334 2.5527 6.2992 0 0 0</pose>
+      <geometry>
+        <box>
+          <size>0.9144 0.0762 0.1016</size>
+        </box>
+      </geometry>
+      <material><script><name>Gazebo/Gray</name></script></material>
+    </visual>
+
+     <collision name="shelf_4_collision">
+        <pose>0.5334 1.2954 6.2992 0 0 0</pose>
+        <geometry>
+          <box>
+            <!-- Solid collision -->
+             <size>1.0668 2.4384 0.1016</size>
+          </box>
+        </geometry>
+				<surface>
+        	<friction>
+          	<ode>
+            	<mu>100.0</mu>
+            	<mu2>100.0</mu2>
+          	</ode>
+        	</friction>
+      	</surface>
+    </collision>
+
+    </link>
+
+    
+
+    
+    
+    
+
+    <link name="shelf_5_front_crossbar">
+
+      <visual name="shelf_5_front_crossbar_visual">
+        <pose>0.0381 1.2954 7.4168 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.0762 2.4384 0.1016</size>
+          </box>
+        </geometry>
+        <material><script><name>Gazebo/Gray</name></script></material>
+     </visual>
+
+    <visual name="shelf_5_rear_crossbar_visual">
+      <pose>1.0287 1.2954 7.4168 0 0 0</pose>
+      <geometry>
+        <box>
+          <size>0.0762 2.4384 0.1016</size>
+        </box>
+      </geometry>
+      <material><script><name>Gazebo/Gray</name></script></material>
+    </visual>
+
+    <visual name="shelf_5_right_crossbar_visual">
+      <pose>0.5334 0.0381 7.4168 0 0 0</pose>
+      <geometry>
+        <box>
+          <size>0.9144 0.0762 0.1016</size>
+        </box>
+      </geometry>
+      <material><script><name>Gazebo/Gray</name></script></material>
+    </visual>
+
+    <visual name="shelf_5_left_crossbar_visual">
+      <pose>0.5334 2.5527 7.4168 0 0 0</pose>
+      <geometry>
+        <box>
+          <size>0.9144 0.0762 0.1016</size>
+        </box>
+      </geometry>
+      <material><script><name>Gazebo/Gray</name></script></material>
+    </visual>
+
+     <collision name="shelf_5_collision">
+        <pose>0.5334 1.2954 7.4168 0 0 0</pose>
+        <geometry>
+          <box>
+            <!-- Solid collision -->
+             <size>1.0668 2.4384 0.1016</size>
+          </box>
+        </geometry>
+				<surface>
+        	<friction>
+          	<ode>
+            	<mu>100.0</mu>
+            	<mu2>100.0</mu2>
+          	</ode>
+        	</friction>
+      	</surface>
+    </collision>
+
+    </link>
+
+    
+
+    
+   
+    
+
+  </model>
+
+</sdf>

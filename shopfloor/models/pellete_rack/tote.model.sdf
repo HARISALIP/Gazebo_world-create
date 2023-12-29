@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+
+  <model name="0.6x0.4x0.2_tote">
+
+    <link name="link">
+
+      <inertial>
+        <pose>0.19685 0.29845 0.069667 0 0 0</pose>
+        <mass>4.536</mass>
+        <inertia>
+          <ixx>0.00015</ixx>
+          <ixy>0</ixy>
+          <ixz>0</ixz>
+          <iyy>0.000083</iyy>
+          <iyz>0</iyz>
+          <izz>0.000204</izz>
+        </inertia>
+      </inertial>
+
+      <collision name="collision_model">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://0.6x0.4x0.2_tote/meshes/0.6x0.4x0.2_tote.dae</uri>
+          </mesh>
+        </geometry>
+        <surface>
+        	<friction>
+          	<ode>
+            	<mu>100.0</mu>
+            	<mu2>100.0</mu2>
+          	</ode>
+        	</friction>
+      	</surface>
+      </collision>
+
+      <visual name="visual_model">
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <mesh>
+            <uri>model://0.6x0.4x0.2_tote/meshes/0.6x0.4x0.2_tote.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+
+    </link>
+
+  </model>
+
+</sdf>
